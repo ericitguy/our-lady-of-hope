@@ -7,10 +7,14 @@ A premium, enquiry-based e-commerce website for a Ghanaian herbal products compa
 The site is fully static. Open `index.html` directly, or serve it:
 
 ```bash
-cd site
+cd docs
 python3 -m http.server 8080
 # then visit http://localhost:8080
 ```
+
+## Deployment
+
+The site is published on **GitHub Pages** from the `docs/` folder of the `main` branch. Pushes to `main` update the live site automatically (usually within a minute or two).
 
 ## Pages
 
