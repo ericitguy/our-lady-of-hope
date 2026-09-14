@@ -35,7 +35,7 @@ window.OLAH = {
       name: "Herbal Beverages",
       slug: "herbal-beverages",
       description: "Nourishing spiced beverage powders, blended the Our Lady way.",
-      image: "assets/products/product-01.jpg"
+      image: "assets/products/product-02.jpg"
     },
     {
       id: "herbal-products",
@@ -83,7 +83,7 @@ window.OLAH = {
       shortDescription: "A creamy spiced beverage powder of tiger nut and coconut — just add water or milk for a classic Ghanaian favourite.",
       fullDescription: "Our Spiced Tiger Nut Coconut Beverage brings together two beloved Ghanaian ingredients — earthy tiger nut and rich coconut — gently spiced and milled into a smooth powder. Simply mix with water or your choice of milk, served chilled over ice just as it is enjoyed across Ghana, or warmed on cooler days. Presented in a wooden-lidded canister, it is our signature beverage at the heart of the range.",
       ingredients: null,
-      images: ["assets/products/product-01.jpg", "assets/products/product-lineup.jpg"],
+      images: ["assets/products/product-02.jpg", "assets/products/product-lineup.jpg"],
       sizes: ["1kg"],
       packaging: "Wooden-lidded canister",
       usage: null,
@@ -109,7 +109,7 @@ window.OLAH = {
       shortDescription: "A vibrant ruby-red beverage powder made from roselle (hibiscus) — refreshingly tangy, served chilled or warm.",
       fullDescription: "Our Red Beverage celebrates roselle — the deep crimson hibiscus calyx long cherished in Ghanaian homes. Dried and milled into a fine powder, it stirs into a brilliantly ruby-red drink, delicious over ice with a slice of lime, or served warm. Presented in a sealed jar, it is as beautiful on the shelf as it is refreshing in the glass.",
       ingredients: null,
-      images: ["assets/products/product-02.jpg", "assets/products/product-04.jpg"],
+      images: ["assets/products/product-01.jpg", "assets/products/product-04.jpg"],
       sizes: ["750g"],
       packaging: "Sealed jar with tamper band",
       usage: null,
