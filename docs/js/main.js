@@ -93,12 +93,16 @@
     mount.innerHTML = OLAH.getCategories()
       .map((c) => {
         const count = products.filter((p) => p.categoryId === c.id).length;
-        return `
+        return { c, count };
+      })
+      .filter(({ count }) => count > 0)
+      .map(
+        ({ c, count }) => `
           <a class="category-card" href="products.html?category=${encodeURIComponent(c.slug)}">
             <span class="category-count">${count} ${count === 1 ? "product" : "products"}</span>
             <div><h3>${c.name}</h3><p>${c.description}</p></div>
-          </a>`;
-      })
+          </a>`
+      )
       .join("");
   };
 
